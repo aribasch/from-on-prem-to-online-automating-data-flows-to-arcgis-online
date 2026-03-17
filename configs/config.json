@@ -1,0 +1,27 @@
+{
+    "agol":{
+        "dashboardTableItemId": "abcdefghij123456789",
+        "logTableItemId": "abcdefghij123456789",
+        "dashboardTableLayerIndex": 0,
+        "profile": "name_of_keyring_profile",
+        "url": "https://your.maps.arcgis.com/",
+        "username": "username"
+    },
+    "email":{
+        "enabled": true,
+        "smtpServer": "smtp.server.com",
+        "smtpPort": 587,
+        "from": "do-not-reply-pinellas@esri.com",
+        "password": "",
+        "to": ["ari12406@esri.com"]
+    },
+    "layersSpreadsheet": "C:\\path\\to\\the\\services_config_example.csv",
+    "swapZipBackupDirectory": "C:\\path\\to\\a\\directory\\for\\ZipBackup",
+    "overwriteFSDirectory": "C:\\path\\to\\OverwriteFS",
+    "sdeWorkspaces": {
+        "admin": "C:\\path\\to\\admin.sde",
+        "copy": "C:\\path\\to\\copy.sde"
+    },
+    "maxProcesses": 4,
+    "overwriteTimeoutMinutes": 60
+}

@@ -1,0 +1,9 @@
+ServiceName,FeatureClass,DatasetType,SublayerID,Interval,Skip,ViewID,ServiceID_A,ServiceID_B,Relationship,SDE
+AB_Node_Ref,AB_Node_Ref,Point,0,Daily,N,ee384fef6e294c138dd1291fc9e0ce89,b7c1db95350e4705ad6c13241d20a5d5,ef6866a2628c47218f76534887883a5d,,prod
+AB_Pipe_Ref,AB_Pipe_Ref,Polyline,0,Monthly,N,1e70940e2fd84bd88a01a758d118172e,da473231b59241029b794fe7b6a8d723,e8aa4010bb99463991f06e46040a0894,,test
+AnnexationActivity,AnnexationActivity,Polygon,0,Weekly,Y,096d2e4977b047a9bdea0aa476f06fbf,06be94cc33e54581950225334b984776,a42c27b858a740fca608ae9bc2e67dcf,,prod
+AnnexationHistoric,AnnexationHistoric,Polygon,0,Yearly,N,2600e99cd1fb4876b4300af79a094abb,96aa14aa525d4e6f8bc57e216eeaa078,8e06f3e6c74245fcaea23663fa3f5f7e,,prod
+Sites,AirMonitoringStation,Point,0,Nightly,N,90e1aa3dd897436e9596f4d4766f6b2a,a86b73600ff94b3fa3b2b2722d444621,070f334bf20e47858fac748c9aa57170,Y,prod
+Sites,irrControlValve,Point,1,Nightly,N,,,,Y,
+Sites,irrHydrant,Point,2,Nightly,N,,,,Y,
+Sites,irrSystemValve,Point,3,Nightly,N,,,,Y,
